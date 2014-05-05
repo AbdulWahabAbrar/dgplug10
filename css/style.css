@@ -23,9 +23,18 @@ a:visited {
 	text-decoration: none;
 }
 
+.bold {
+    font-weight: bold;
+}
 
+.footer {
+    font-size: 14px;
+    text-align: center;
+}
 
-
+.center-align {
+	text-align: center;
+}
 
 /* Navigation */
 
@@ -180,8 +189,25 @@ a:visited {
 	font-weight: 400;
 }
 
+/* Slide 5 */ 
 
-
+#slide5{
+	background-color:#ffffff;
+}
+#slide5 h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#8a8683;
+	font-weight: 700;
+}
+#slide5 h2 {
+	font-size: 2em;
+	color: #8a8683;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
 
 
 /* Tablet */
@@ -320,6 +346,31 @@ a:visited {
 
 }
 
+.grid {
+	/* padding: 20px 20px 100px 20px; */
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
 
+.grid li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
 
+.grid figure {
+	height: 400;
+	margin: 0;
+	position: relative;
+}
 
+.grid figure img {
+	max-width: 72%;
+	display: block;
+	position: relative;
+}

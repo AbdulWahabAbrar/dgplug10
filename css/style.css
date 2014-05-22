@@ -115,17 +115,18 @@ a:visited {
 /* Slide 2 */ 
 
 #slide2{
-	background-image:url('../images/footprints.png');
-	background-color:#f68f67;
+	background-image:url('../images/flower.png');
+	background-color: #e67e22;
 	color:#ffffff;
 }
 #slide2 h1 {
 	font-size: 3.8em;
 	letter-spacing: -3px;
 	line-height: 0px;
-	color:#ffffff;
+	color:#5E3301;
 	font-weight: 700;
 }
+
 #slide2 h2 {
 	font-size: 2em;
 	color: #ffffff;
@@ -134,8 +135,14 @@ a:visited {
 	font-weight: 400;
 }
 
+#slide2 p {
+    font-size: 21px;
+    color: #824402;
+}
 
-
+#slide2 .highlight {
+    border-bottom: 2px solid #F59925;
+}
 
 /* Slide 3 */ 
 

@@ -49,6 +49,8 @@ a:visited {
 #logo {
 	text-align: center;
 	margin: 10px 0;
+	overflow: hidden;
+	height: 73px;
 }
 #nav {
 	text-align: right;
@@ -85,6 +87,7 @@ a:visited {
 	height:auto;
 	position: relative;
 	padding:140px 0;
+	min-height: inherit;
 }
 
 
